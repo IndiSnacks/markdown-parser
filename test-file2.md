@@ -4,4 +4,4 @@
 
 [link2](some.html)
 
-[link3]
+![link3](image.png)
