@@ -21,8 +21,6 @@ public class MarkdownParseTest{
     public void testfile2() throws IOException{
         Path fileName = Path.of("test-file2.md");
         String content = Files.readString(fileName);
-        ArrayList<String> test = MarkdownParse.getLinks(content);
-        System.out.println("HERE" + test);
         assertEquals(List.of("https://hello.net", "some.html"), test);
     }
 } 
