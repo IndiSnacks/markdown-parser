@@ -25,8 +25,7 @@ public class MarkdownParse {
             char charat0 = markdown.charAt(openBracket - 1);
             if(!(charat0 == '!')){
                 toReturn.add(markdown.substring(openParen + 1, closeParen)); 
-            }
-            toReturn.add(markdown.substring(openParen + 1, closeParen));    
+            } 
             currentIndex = closeParen + 1;
         }
 
